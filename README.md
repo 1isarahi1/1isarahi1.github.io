@@ -1,4 +1,6 @@
-#Lab 1 - Website Deployment
+# Lab 1 - Website Deployment
+# Name: Sarah Malik
+# Student ID: 40175868
 # 1isarahi1.github.io
 
 Hi! I'm Sarah, a passionate Full Stack Developer with a love for both technology and finance. I enjoy bridging the gap between front-end and back-end development, creating efficient, scalable, and user-friendly applications while exploring the fascinating world of economics and financial systems.
