@@ -90,8 +90,40 @@
         <h1>📱 SOEN 357 Mini Project: Health Companion Super App</h1>
         <p><strong>By: Sarah Malik</strong></p>
         <p>This UX/UI case study documents my design process for the   Health Companion Super App  , a mobile health assistant for tracking medications and appointments.</p>
-        <p>The study covers   User Research, Persona Creation, User Journey Mapping, Wireframing, Prototyping, and Usability Testing  .</p>
-    </section>
+        <p>The study covers: User Research, Persona Creation, User Journey Mapping, Wireframing, Prototyping, and Usability Testing  .</p>
+    <!-- Link to Final Report -->
+    <a href="https://sarahmalik.github.io/soen357-project" target="_blank" class="button">
+        📄 View Final Report
+    </a>
+</section>
+
+
+<style>
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 12px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background: #00796b;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease-in-out;
+    }
+
+    .button:hover {
+        background: linear-gradient(135deg, #00796b, #004d40);
+        transform: scale(1.05);
+        box-shadow: 2px 6px 14px rgba(0, 0, 0, 0.15);
+    }
+</style>
 
     <section id="user-research">
         <h2>🔍 Phase 1: User Research & Personas</h2>
@@ -124,27 +156,147 @@
 
     </section>
 
-  
     <section id="journey-map">
         <h2>🗺️ Phase 2: User Journey Mapping</h2>
         <h3>📌 Goal: Identify user frustrations & opportunities for UX improvement.</h3>
-        
+    
         <h3>👀 Key Issues Identified</h3>
         <ul>
             <li>Confusing onboarding process for elderly users.</li>
             <li>Excessive notifications disrupting workflows.</li>
             <li>Emergency button not easily accessible.</li>
         </ul>
-
+    
         <h3>📈 Improvements</h3>
         <ul>
             <li>✔️ Guided onboarding tutorial added.</li>
             <li>✔️ Adjustable notification frequency settings.</li>
             <li>✔️ Emergency SOS button relocated to home screen.</li>
         </ul>
+    
+        <h3>✏️ Sketches</h3>
+        <p>Below are the initial hand-drawn sketches that shaped the user journey experience.</p>
+    
+        <div class="content-container">
+            <img src="assets/images/Sketches.jpg" alt="User Journey Sketches">
+        </div>
+    
+        <h3>📖 User Journey Stories</h3>
+        <p>These scripts illustrate how different users interact with the Health Companion Super App.</p>
+    
+        <!-- John Doe -->
+        <div class="content-container">
+            <h4>👨‍🦳 John Doe (58, Type 2 Diabetes Patient)</h4>
+            <p><strong>📌 Scenario:</strong> John struggles with medication reminders and blood sugar tracking. His doctor recommends the app.</p>
+    
+            <h5>🔍 Awareness (Curious, Skeptical)</h5>
+            <p><strong>Doctor:</strong> "John, I think you’d benefit from a health app that tracks your medication and sugar levels. This one is simple to use."</p>
+            <p>John takes the brochure skeptically. "Another app? I don’t need something complicated." But when he gets home, he decides to check it out.</p>
+    
+            <h5>📲 Onboarding (Overwhelmed, Cautious)</h5>
+            <p>John downloads the app. "Okay, let’s set this up… What’s all this information? My birthdate, medications, dosage… Wow, this is a lot."</p>
+            <p>He struggles but completes the setup. The app gives him a tutorial on reminders and syncing with his smartwatch.</p>
+    
+            <h5>⏳ Daily Use (Motivated, Engaged)</h5>
+            <p>The next morning, John gets a reminder: <strong>"John, it's time for your morning insulin dose."</strong> He marks it as taken and feels relieved.</p>
+    
+            <h5>📊 Tracking (Reassured, Sometimes Confused)</h5>
+            <p>John reviews his progress: "Hmm, my levels look stable, but what does this spike mean?"</p>
+            <p>He clicks <strong>"Ask a Doctor"</strong> to schedule a chat with a health consultant.</p>
+    
+            <h5>🔔 Notifications (Reliant, Occasionally Annoyed)</h5>
+            <p>"John, don't forget to take your evening insulin!"</p>
+            <p>Annoyed, he mutters, "I know, I know... Can I adjust these notifications?" He tweaks the settings.</p>
+    
+            <h5>💡 Pain Points & UX Fixes:</h5>
+            <ul>
+                <li>Overwhelming onboarding → Add a simpler step-by-step setup</li>
+                <li>Confusing data visualization → Include explanations for trends</li>
+                <li>Too many reminders → Allow user-customized notification settings</li>
+            </ul>
+        </div>
+    
+        <!-- Jemima Joe -->
+        <div class="content-container">
+            <h4>👩‍💼 Jemima Joe (45, Busy Professional with Hypertension)</h4>
+            <p><strong>📌 Scenario:</strong> Jemima balances work, kids, and health. She needs an app that syncs with her smartwatch.</p>
+    
+            <h5>🔍 Awareness (Interested, Busy)</h5>
+            <p>Jemima reads an article: <strong>"Top 5 Apps for Managing Hypertension."</strong> She clicks, intrigued.</p>
+    
+            <h5>📲 Onboarding (Rushed, Slightly Overwhelmed)</h5>
+            <p>She downloads the app and syncs it to her smartwatch. <strong>"Syncing with Apple Health… Done!"</strong> "Finally, something easy!"</p>
+    
+            <h5>⏳ Daily Use (Empowered, In Control)</h5>
+            <p>During a morning workout, the app auto-logs her blood pressure. At 3 PM, she gets a reminder: <strong>"Take a 5-minute break to breathe."</strong> She ignores it.</p>
+    
+            <h5>📊 Tracking (Motivated, Needs Quick Insights)</h5>
+            <p>Before bed, she checks her weekly progress. "Love that I don’t have to log anything manually. But can this be shorter?"</p>
+            <p>She switches to <strong>"Quick View Mode."</strong></p>
+    
+            <h5>🔔 Notifications (Sometimes Dismisses, Needs Customization)</h5>
+            <p>A stress management tip pops up during a meeting. "Practice deep breathing to lower blood pressure."</p>
+            <p>She customizes reminders to work hours only.</p>
+    
+            <h5>💡 Pain Points & UX Fixes:</h5>
+            <ul>
+                <li>Overloaded setup → Add a Quick-Start Mode</li>
+                <li>Needs shorter summaries → Introduce a Quick View Dashboard</li>
+                <li>Inconvenient reminders → Allow work-hour settings</li>
+            </ul>
+        </div>
+    
+        <!-- Sam Smith -->
+        <div class="content-container">
+            <h4>🧓 Sam Smith (70, Elderly User with COPD)</h4>
+            <p><strong>📌 Scenario:</strong> Sam, a retired carpenter, has limited tech experience but needs simple health tracking.</p>
+    
+            <h5>🔍 Awareness (Skeptical, Needs Guidance)</h5>
+            <p>His daughter installs the app. <strong>“Dad, this will remind you about your meds.”</strong></p>
+    
+            <h5>📲 Onboarding (Confused, Frustrated)</h5>
+            <p>Sam squints: "Where’s the button to make this bigger?" His daughter enables <strong>"Senior Mode"</strong> with larger text and voice instructions.</p>
+    
+            <h5>⏳ Daily Use (Comfortable, Relieved)</h5>
+            <p>A voice notification reminds him: <strong>"Sam, it’s time to take your medication."</strong> He taps "Taken." "Nice! That was easy."</p>
+    
+            <h5>📊 Tracking (Appreciative, Needs Support)</h5>
+            <p>Sam checks his oxygen levels but doesn’t understand the graph. He taps <strong>“Explain”</strong>, and a voice assistant provides a breakdown.</p>
+    
+            <h5>🔔 Notifications (Essential, but Not Overwhelming)</h5>
+            <p>At night, he gets a bedtime reminder: <strong>"Don’t forget to charge your oxygen monitor."</strong></p>
+    
+            <h5>💡 Pain Points & UX Fixes:</h5>
+            <ul>
+                <li>Small text & complicated UI → Enable Senior Mode</li>
+                <li>Confusing graphs → Add voice explanations</li>
+                <li>Needs gentle reminders → Use voice-based alerts</li>
+            </ul>
+        </div>
     </section>
     
-    </section>
+    <style>
+        .content-container {
+            text-align: left;
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+    
+        .content-container h4 {
+            color: #004d40;
+        }
+    
+        .content-container ul {
+            text-align: left;
+            padding-left: 20px;
+            list-style-type: square;
+        }
+    </style>
+    
     
     <section id="wireframes">
         <h2>📐 Phase 3: Wireframing & Prototyping</h2>
@@ -299,29 +451,199 @@
     </style>
     
     
-
     <section id="usability">
         <h2>🧑‍💻 Phase 4: Usability Testing</h2>
         <h3>📌 Goal: Improve UI based on real user feedback.</h3>
-
+    
         <h3>🔍 Key Findings</h3>
         <ul>
-            <li>🚫   Complex onboarding   – Added a   step-by-step guide  .</li>
-            <li>👀   Tiny text   – Increased   font size and contrast  .</li>
-            <li>🔔   Too many notifications   – Users can now   adjust frequency  .</li>
-            <li>⚠️   Hidden emergency button   – Relocated for   quick access  .</li>
+            <li>🚫 Complex onboarding – Added a step-by-step guide.</li>
+            <li>👀 Tiny text – Increased font size and contrast.</li>
+            <li>🔔 Too many notifications – Users can now adjust frequency.</li>
+            <li>⚠️ Hidden emergency button – Relocated for quick access.</li>
         </ul>
-
-
+    
+        <h3>📊 Hypothetical Usability Testing Plan</h3>
+        <p>This usability test aims to evaluate the Health Companion Super App’s user experience by identifying potential pain points and areas for improvement.</p>
+    
+        <div class="content-container">
+            <h4>1️⃣ Overview</h4>
+            <p><strong>Goal:</strong> Assess how well users navigate onboarding, medication reminders, health tracking, and accessibility features.</p>
+        </div>
+    
+        <div class="content-container">
+            <h4>2️⃣ Testing Objectives</h4>
+            <p>The test aims to answer key usability questions:</p>
+            <ul>
+                <li>Can new users easily complete onboarding?</li>
+                <li>Is the app’s navigation intuitive for different user types?</li>
+                <li>How efficiently can users set up and manage medication reminders?</li>
+                <li>Are users able to understand and utilize health tracking features?</li>
+                <li>Do users find notification customization flexible and effective?</li>
+                <li>How accessible is the app for elderly and less tech-savvy users?</li>
+            </ul>
+        </div>
+    
+        <div class="content-container">
+            <h4>3️⃣ Hypothetical Test Participants</h4>
+            <p>To simulate real-world scenarios, the test includes diverse hypothetical users:</p>
+            <ul>
+                <li>👨‍🦳 Middle-aged diabetes patient needing medication tracking.</li>
+                <li>👩‍💼 Busy professional with hypertension relying on smartwatch integration.</li>
+                <li>🧓 Elderly user struggling with small text and complex navigation.</li>
+                <li>👨‍👩‍👧 Caregiver managing a family member’s health.</li>
+                <li>📲 Tech-savvy individual using wearables and tracking apps.</li>
+            </ul>
+        </div>
+    
+        <div class="content-container">
+            <h4>4️⃣ Test Scenarios & Tasks</h4>
+            <table class="test-table">
+                <tr>
+                    <th>Task No.</th>
+                    <th>Scenario</th>
+                    <th>User Goal</th>
+                    <th>Metrics</th>
+                </tr>
+                <tr>
+                    <td>1️⃣</td>
+                    <td>User completes the onboarding process.</td>
+                    <td>Successful account creation.</td>
+                    <td>Time taken, errors, confusion levels.</td>
+                </tr>
+                <tr>
+                    <td>2️⃣</td>
+                    <td>User sets up a daily medication reminder.</td>
+                    <td>Ensures medication adherence.</td>
+                    <td>Steps taken, success rate, completion time.</td>
+                </tr>
+                <tr>
+                    <td>3️⃣</td>
+                    <td>User logs a health metric (e.g., blood pressure).</td>
+                    <td>Tracks health data efficiently.</td>
+                    <td>Input accuracy, ease of access.</td>
+                </tr>
+                <tr>
+                    <td>4️⃣</td>
+                    <td>User customizes notification settings.</td>
+                    <td>Personalizes alerts effectively.</td>
+                    <td>Success rate, ease of finding settings.</td>
+                </tr>
+                <tr>
+                    <td>5️⃣</td>
+                    <td>Elderly user locates and uses SOS feature.</td>
+                    <td>Ensures quick emergency access.</td>
+                    <td>Completion rate, response time.</td>
+                </tr>
+                <tr>
+                    <td>6️⃣</td>
+                    <td>User reviews weekly health trends.</td>
+                    <td>Gains insights into health progress.</td>
+                    <td>Understanding level, frustration points.</td>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="content-container">
+            <h4>5️⃣ Hypothetical Testing Methodology</h4>
+            <h5>📌 Testing Format</h5>
+            <ul>
+                <li>🎤 <strong>Moderated Testing</strong> – Observers guide users remotely or in-person.</li>
+                <li>📱 <strong>Unmoderated Testing</strong> – Users complete tasks independently using screen recording tools.</li>
+                <li>⚖️ <strong>A/B Testing</strong> – Comparing different UI versions (e.g., default vs. accessibility mode).</li>
+            </ul>
+    
+            <h5>📊 Data Collection Methods</h5>
+            <ul>
+                <li>📌 <strong>Observation Logs</strong> – Tracking hesitation points.</li>
+                <li>📊 <strong>Survey Ratings</strong> – Users rate tasks (1-5 scale).</li>
+                <li>📝 <strong>Follow-Up Interviews</strong> – Gathering improvement suggestions.</li>
+            </ul>
+        </div>
+    
+        <div class="content-container">
+            <h4>6️⃣ Hypothetical Data Analysis & UX Fixes</h4>
+            <table class="test-table">
+                <tr>
+                    <th>Issue</th>
+                    <th>% Users Affected</th>
+                    <th>Impact Level</th>
+                    <th>Proposed Fix</th>
+                </tr>
+                <tr>
+                    <td>Complex onboarding process</td>
+                    <td>50%</td>
+                    <td>High</td>
+                    <td>Step-by-step tutorial mode.</td>
+                </tr>
+                <tr>
+                    <td>Difficulty finding SOS button</td>
+                    <td>40%</td>
+                    <td>High</td>
+                    <td>Move to a prominent location.</td>
+                </tr>
+                <tr>
+                    <td>Text too small for elderly users</td>
+                    <td>60%</td>
+                    <td>Medium</td>
+                    <td>Enable "Senior Mode."</td>
+                </tr>
+                <tr>
+                    <td>Confusing health log navigation</td>
+                    <td>30%</td>
+                    <td>Medium</td>
+                    <td>Add tooltips & clearer labels.</td>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="content-container">
+            <h4>7️⃣ Future Iterations</h4>
+            <p>After implementing changes, another usability test may be conducted to validate improvements. This ensures the app evolves into a more user-friendly and accessible tool.</p>
+        </div>
+    
     </section>
+    
+    <style>
+        .content-container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+        }
+    
+        .test-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+    
+        .test-table th, .test-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+    
+        .test-table th {
+            background-color: #004d40;
+            color: white;
+        }
+    
+        .test-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+    
+        .test-table tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+    
 
-    <section id="final-report">
-        <h2>📄 Phase 5: Final Report </h2>
-        <h3>📌 Goal: Compile everything into a professional UX report.</h3>
-        
-        <p>The final project is live on   GitHub Pages  :</p>
-        <a href="https://sarahmalik.github.io/soen357-project" target="_blank" class="button">View Final Case Study</a>
-    </section>
+</section>
+
 
     <footer>
         &copy; 2025 Sarah Malik | SOEN 357 UX/UI Case Study
